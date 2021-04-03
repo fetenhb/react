@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=New+Tegomin&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Indie+Flower&family=New+Tegomin&family=Roboto:wght@300&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+
 /* ----------------------- navbar ----------------------------*/
 .logo {
   width: 6.25rem;
@@ -17,4 +19,39 @@ margin-left:20px;
 font-weight: 900;
 letter-spacing: 2px;
 font-family: 'Indie Flower';
+}
+.navbar-nav li a:active, .navbar-nav li a:focus, .navbar-nav li a:hover {
+  border-top: 0.18rem solid skyblue;
+}
+.photo-tunisie{
+  position:relative;
+  background-size:contain;
+  background-position: center;
+
+  
+}
+
+.photo-tunisie img{
+  height: 300px;
+}
+.a-propos {
+  display:flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+  }
+
+.info p {
+  font-family: 'Comfortaa';
+  font-weight: bold;
+}
+.info
+{
+  width: 600px;
+}
+.info h1 {
+  border-bottom: 0.2rem solid skyblue ;
+  margin-bottom: 30px;
 }
