@@ -2,7 +2,7 @@ import React from 'react'
 import tunisie from '../components/img/tunisie.jpg'
 const Apropos = () => {
     return (
-        <div className='a-propos'>
+        <div className='a-propos' id='aPropos'>
             <div className='info'>
                 <h1>la tunisie</h1>
                 <p> La Tunisie est un pays d'Afrique du Nord situé sur la côte méditerranéenne et en bordure du désert du Sahara. 
